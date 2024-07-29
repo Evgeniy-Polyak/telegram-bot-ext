@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: Telegram bot extended
+
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/db-dev}
+    username: ${DB_USER:db-dev}
+    password: ${DB_PASS:db-dev-pass}
